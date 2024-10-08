@@ -1,0 +1,114 @@
+<html lang="es">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="bodegas en Murcia, vinos de calidad">
+		<meta name="description" content="Venta de Vinos">
+		<title>Productos</title>
+	</head>
+	
+	<body>
+	
+		
+	<table width="800px" cellpadding="5" cellspacing="0" border="1">
+		
+		<tr >
+			<td colspan="4"><img src="banner.jpg"></td>
+		</tr>
+		
+		<tr width="25%" >
+			<td width="25%">Alma de Luzon</td>
+			<td rowspan="4"width="25%"><img src="botella2.jpg"></td>
+			<td width="25%">Altos de Luzon</td>
+			<td rowspan="4" width="25%"><img src="botella1.jpg"></td>
+		</tr>
+			<td>Vino tinto</td>
+			<td>Vino tinto</td>
+		
+		<tr>
+			<td>210,00 Euros</td>
+			<td>163,00 Euros</td>
+		</tr>
+		
+		<tr >
+			<td>
+			<b>Aroma:</b> <br>
+			Intenso y complejos aromas a <br>
+			fruta negra en licor, cacao, <br>
+			especiado roble fino. <br><br>
+			<b>Paladar:</b> <br>
+			Carnoso, taninos maduros y <br>
+			dulces, frescos y frutales, <br>
+			sabroso y potente complejo.
+			</td>
+			
+			<td>
+			<b>Aroma:</b> <br>
+			Frutos maduros, mora, ciruela, <br>
+			motas de vainilla, torrefactas, <br>
+			balsámico, personal y comlejo. <br><br>
+			
+			<b>Paladar:</b> <br>
+			Amplio, mineral, taninos <br>
+			maduros, goloso, redondo y <br>
+			pulido, final persistente
+			</td>
+		</tr>
+	
+	
+	</table >
+	
+	<br>
+	
+	<table width="800px" cellpadding="5" cellspacing="0" border="1" >
+		<form action="envio.php" method="post">
+		
+		<tr>
+			<td>Nombre</td>
+			<td><input type="text"  id="nombre" name="nombre" value="Jose Luis"></td>
+			<td>Apellidos</td>
+			<td><input type="text" id="apellidos" name="apellidos" value="Pérez García"></td>
+		</tr>
+		
+		<tr>
+			<td>Correo Electrónico</td>
+			<td><input type="text"  id="nombre" name="nombre" value="info@gmail.com"></td>
+			<td>Tipo de Vinos</td>
+			<td>	<select name="tipo_vino" id="tipo_vino">
+					<option value="tintos">Tintos</option>
+					<option value="rosado">Rosados</option>
+					<option value="blanco">Blancos</option>
+					<option value="todos">Todos</option>
+				</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Sexo</td>
+			<td colspan="3">Observaciones</td>
+		</tr>
+		
+		<tr>
+			<td "> <input type="radio" id="sexo" name="sexo" value="Hombre">
+							<label for="val">Hombre</label><br>
+							<input type="radio" id="sexo" name="sexo" value="Mujer">
+							<label for="val">Mujer</label><br>
+			</td>
+			<td colspan="3"><textarea id="comment" name="comment" rows="5" cols="45" placeholder="Deseo recibir información sobre estas promociones en mi correo electrónico"></textarea></td>
+		</tr>
+		
+		<tr>
+			<td colspan="4"><input type="checkbox" id="aceptacion" name="aceptacion"> Acepto los términos de uso de esta información y el envio de publicidad.</td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="submit" value="Enviar Solicitud"></td></td>
+			<td colspan="2"><input type="reset" value="Borrar datos"></td>
+		</tr>
+		
+		</form>
+	</table>
+	
+	</body>
+	
+	
+</html>
