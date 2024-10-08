@@ -1,0 +1,74 @@
+﻿Estructura de la página:
+* <!DOCTYPE html>: Define el tipo de documento como HTML5.
+* <html lang="es">: Etiqueta raíz del documento. El atributo lang especifica el idioma (en este caso, español).
+* <head>: Contiene metadatos sobre el documento (título, enlaces a CSS, etc.).
+   * <title>: Define el título que aparece en la pestaña del navegador.
+   * <meta charset="UTF-8">: Define la codificación de caracteres.
+   * <link rel="stylesheet" href="style.css">: Enlaza una hoja de estilo externa.
+* <body>: Contiene el contenido visible de la página.
+Etiquetas de sección:
+* <header>: Define la cabecera de una sección o página.
+* <nav>: Define un conjunto de enlaces de navegación.
+* <main>: Define el contenido principal de la página.
+* <article>: Define una sección independiente de contenido (ej. un post de blog).
+* <section>: Define una sección genérica dentro de un documento.
+* <aside>: Define contenido relacionado tangencialmente con el contenido que lo rodea (ej. una barra lateral).
+* <footer>: Define el pie de página de una sección o página.
+Etiquetas de contenido:
+* <h1> a <h6>: Define encabezados de diferentes niveles.
+* <p>: Define un párrafo de texto.
+* <br>: Inserta un salto de línea.
+* <hr>: Inserta una línea horizontal.
+* <pre>: Define texto preformateado.
+* <blockquote>: Define una cita larga.
+* <q>: Define una cita corta.
+* <ul>: Define una lista desordenada.
+* <ol>: Define una lista ordenada.
+* <li>: Define un elemento de lista.
+* <dl>: Define una lista de definiciones.
+* <dt>: Define un término en una lista de definiciones.
+* <dd>: Define la definición de un término.
+* <table>: Define una tabla.
+* <tr>: Define una fila en una tabla.
+* <td>: Define una celda en una tabla.
+* <th>: Define una celda de encabezado en una tabla.
+* <form>: Define un formulario.
+* <input>: Define un campo de entrada en un formulario (texto, contraseña, botón, etc.).
+* <textarea>: Define un área de texto en un formulario.
+* <button>: Define un botón.
+* <select>: Define una lista desplegable.
+* <option>: Define una opción en una lista desplegable.
+* <label>: Define una etiqueta para un elemento de formulario.
+* <fieldset>: Agrupa elementos relacionados en un formulario.
+* <legend>: Define un título para un <fieldset>.
+Etiquetas multimedia:
+* <img>: Inserta una imagen.
+* <audio>: Inserta un archivo de audio.
+* <video>: Inserta un archivo de vídeo.
+* <source>: Define múltiples fuentes de medios para <audio> y <video>.
+* <track>: Define pistas de texto (subtítulos) para <audio> y <video>.
+Etiquetas de enlace:
+* <a>: Define un hipervínculo.
+Etiquetas de incrustación:
+* <iframe>: Inserta otro documento HTML dentro del actual.
+* <embed>: Inserta contenido externo (ej. un plugin).
+* <object>: Inserta un objeto externo (ej. un archivo PDF).
+Etiquetas semánticas:
+* <figure>: Define una figura (ej. una imagen con su pie de foto).
+* <figcaption>: Define el pie de foto de una figura.
+* <details>: Define detalles adicionales que el usuario puede mostrar u ocultar.
+* <summary>: Define un encabezado visible para <details>.
+* <time>: Define una fecha y/o hora.
+* <mark>: Resalta texto.
+
+
+
+
+
+
+
+
+
+* https://github.com/Miguel-Angel-tapia/PrepCourse-html
+* https://github.com/GonzaloGSC/html_css_learning
+* https://github.com/fmarvass/miprimeraagina
