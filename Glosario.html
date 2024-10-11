@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glosario de HTML5 con ejemplos</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    code {
+      background-color: #f4f4f4;
+      border: 1px solid #ddd;
+      padding: 10px;
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Glosario de HTML5 con ejemplos</h1>
+    <p>Este glosario incluye los componentes más comunes de HTML5 con una breve descripción y un ejemplo práctico para que puedas copiar y pegar en tu código.</p>
+
+    <nav>
+      <ul>
+        <li><a href="#estructura">Estructura de la página</a></li>
+        <li><a href="#secciones">Etiquetas de sección</a></li>
+        <li><a href="#contenido">Etiquetas de contenido</a></li>
+        <li><a href="#multimedia">Etiquetas multimedia</a></li>
+        <li><a href="#enlaces">Etiquetas de enlace</a></li>
+        <li><a href="#incrustacion">Etiquetas de incrustación</a></li>
+        <li><a href="#semanticas">Etiquetas semánticas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <h2 id="estructura">Estructura de la página</h2> 
+    <dl>
+      <dt><code>&lt;!DOCTYPE html&gt;</code></dt>
+      <dd>Define el tipo de documento como HTML5.
+          <code>
+            &lt;!DOCTYPE html&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;html lang="es"&gt;</code></dt>
+      <dd>Etiqueta raíz del documento. El atributo <code>lang</code> especifica el idioma.
+          <code>
+            &lt;html lang="es"&gt;
+            &lt;head&gt;
+              ...
+            &lt;/head&gt;
+            &lt;body&gt;
+              ...
+            &lt;/body&gt;
+            &lt;/html&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;head&gt;</code></dt>
+      <dd>Contiene metadatos sobre el documento.
+          <code>
+            &lt;head&gt;
+              &lt;meta charset="UTF-8"&gt;
+              &lt;title&gt;Mi página web&lt;/title&gt;
+            &lt;/head&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;title&gt;</code></dt>
+      <dd>Define el título que aparece en la pestaña del navegador.
+          <code>
+            &lt;title&gt;Mi página web&lt;/title&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;meta charset="UTF-8"&gt;</code></dt>
+      <dd>Define la codificación de caracteres.
+          <code>
+            &lt;meta charset="UTF-8"&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;body&gt;</code></dt>
+      <dd>Contiene el contenido visible de la página.
+          <code>
+            &lt;body&gt;
+              &lt;h1&gt;Hola mundo&lt;/h1&gt;
+              &lt;p&gt;Este es un párrafo de texto.&lt;/p&gt;
+            &lt;/body&gt;
+          </code>
+      </dd>
+    </dl>
+
+
+    <h2 id="secciones">Etiquetas de sección</h2> 
+
+    <dl>
+      <dt><code>&lt;header&gt;</code></dt>
+      <dd>Define la cabecera de una sección o página.
+          <code>
+            &lt;header&gt;
+              &lt;h1&gt;Mi sitio web&lt;/h1&gt;
+              &lt;nav&gt;
+                ...
+              &lt;/nav&gt;
+            &lt;/header&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;nav&gt;</code></dt>
+      <dd>Define un conjunto de enlaces de navegación.
+          <code>
+            &lt;nav&gt;
+              &lt;ul&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Inicio&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Acerca de&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Contacto&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/nav&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;main&gt;</code></dt>
+      <dd>Define el contenido principal de la página.
+          <code>
+            &lt;main&gt;
+              &lt;article&gt;
+                ...
+              &lt;/article&gt;
+              &lt;aside&gt;
+                ...
+              &lt;/aside&gt;
+            &lt;/main&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;article&gt;</code></dt>
+      <dd>Define una sección independiente de contenido.
+          <code>
+            &lt;article&gt;
+              &lt;h2&gt;Título del artículo&lt;/h2&gt;
+              &lt;p&gt;Contenido del artículo.&lt;/p&gt;
+            &lt;/article&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;section&gt;</code></dt>
+      <dd>Define una sección genérica dentro de un documento.
+          <code>
+            &lt;section&gt;
+              &lt;h2&gt;Sección 1&lt;/h2&gt;
+              &lt;p&gt;Contenido de la sección 1.&lt;/p&gt;
+            &lt;/section&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;aside&gt;</code></dt>
+      <dd>Define contenido relacionado tangencialmente con el contenido que lo rodea.
+          <code>
+            &lt;aside&gt;
+              &lt;h3&gt;Información adicional&lt;/h3&gt;
+              &lt;p&gt;Contenido relacionado.&lt;/p&gt;
+            &lt;/aside&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;footer&gt;</code></dt>
+      <dd>Define el pie de página de una sección o página.
+          <code>
+            &lt;footer&gt;
+              &lt;p&gt;Copyright 2024&lt;/p&gt;
+            &lt;/footer&gt;
+          </code>
+      </dd>
+    </dl>
+
+    <h2 id="contenido">Etiquetas de contenido</h2>
+
+    <dl>
+      <dt><code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code></dt>
+      <dd>Define encabezados de diferentes niveles.
+          <code>
+            &lt;h1&gt;Encabezado principal&lt;/h1&gt;
+            &lt;h2&gt;Encabezado secundario&lt;/h2&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;p&gt;</code></dt>
+      <dd>Define un párrafo de texto.
+          <code>
+            &lt;p&gt;Este es un párrafo de texto.&lt;/p&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;br&gt;</code></dt>
+      <dd>Inserta un salto de línea.
+          <code>
+            &lt;p&gt;Esta es la primera línea.&lt;br&gt;Esta es la segunda línea.&lt;/p&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;hr&gt;</code></dt>
+      <dd>Inserta una línea horizontal.
+          <code>
+            &lt;p&gt;Texto arriba de la línea.&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p&gt;Texto debajo de la línea.&lt;/p&gt;
+          </code>
+      </dd>
+	  <dt><code>&lt;pre&gt;</code></dt>
+      <dd>Define texto preformateado.
+          <code>
+            &lt;pre&gt;
+              Este texto
+              se muestra
+              exactamente
+              como se escribe.
+            &lt;/pre&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;blockquote&gt;</code></dt>
+      <dd>Define una cita larga.
+          <code>
+            &lt;blockquote&gt;
+              &lt;p&gt;Esta es una cita larga.&lt;/p&gt;
+            &lt;/blockquote&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;q&gt;</code></dt>
+      <dd>Define una cita corta.
+          <code>
+            &lt;p&gt;Dijo &lt;q&gt;Hola&lt;/q&gt; al entrar.&lt;/p&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;ul&gt;</code></dt>
+      <dd>Define una lista desordenada.
+          <code>
+            &lt;ul&gt;
+              &lt;li&gt;Elemento 1&lt;/li&gt;
+              &lt;li&gt;Elemento 2&lt;/li&gt;
+              &lt;li&gt;Elemento 3&lt;/li&gt;
+            &lt;/ul&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;ol&gt;</code></dt>
+      <dd>Define una lista ordenada.
+          <code>
+            &lt;ol&gt;
+              &lt;li&gt;Primer elemento&lt;/li&gt;
+              &lt;li&gt;Segundo elemento&lt;/li&gt;
+              &lt;li&gt;Tercer elemento&lt;/li&gt;
+            &lt;/ol&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;li&gt;</code></dt>
+      <dd>Define un elemento de lista.
+          <code>
+            &lt;li&gt;Elemento de lista&lt;/li&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;dl&gt;</code></dt>
+      <dd>Define una lista de definiciones.
+          <code>
+            &lt;dl&gt;
+              &lt;dt&gt;HTML&lt;/dt&gt;
+              &lt;dd&gt;Lenguaje de marcado de hipertexto.&lt;/dd&gt;
+              &lt;dt&gt;CSS&lt;/dt&gt;
+              &lt;dd&gt;Hojas de estilo en cascada.&lt;/dd&gt;
+            &lt;/dl&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;dt&gt;</code></dt>
+      <dd>Define un término en una lista de definiciones.
+          <code>
+            &lt;dt&gt;HTML&lt;/dt&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;dd&gt;</code></dt>
+      <dd>Define la definición de un término.
+          <code>
+            &lt;dd&gt;Lenguaje de marcado de hipertexto.&lt;/dd&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;table&gt;</code></dt>
+      <dd>Define una tabla.
+          <code>
+            &lt;table&gt;
+              &lt;tr&gt;
+                &lt;th&gt;Nombre&lt;/th&gt;
+                &lt;th&gt;Apellido&lt;/th&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;Juan&lt;/td&gt;
+                &lt;td&gt;Pérez&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;tr&gt;</code></dt>
+      <dd>Define una fila en una tabla.
+          <code>
+            &lt;tr&gt;
+              &lt;td&gt;Juan&lt;/td&gt;
+              &lt;td&gt;Pérez&lt;/td&gt;
+            &lt;/tr&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;td&gt;</code></dt>
+      <dd>Define una celda en una tabla.
+          <code>
+            &lt;td&gt;Juan&lt;/td&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;th&gt;</code></dt>
+      <dd>Define una celda de encabezado en una tabla.
+          <code>
+            &lt;th&gt;Nombre&lt;/th&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;form&gt;</code></dt>
+      <dd>Define un formulario.
+          <code>
+            &lt;form action="/enviar" method="post"&gt;
+              &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+              &lt;input type="text" id="nombre" name="nombre"&gt;
+              &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+            &lt;/form&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;input&gt;</code></dt>
+      <dd>Define un campo de entrada en un formulario.
+          <code>
+            &lt;input type="text" id="nombre" name="nombre"&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;textarea&gt;</code></dt>
+      <dd>Define un área de texto en un formulario.
+          <code>
+            &lt;textarea id="mensaje" name="mensaje"&gt;&lt;/textarea&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;button&gt;</code></dt>
+      <dd>Define un botón.
+          <code>
+            &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;select&gt;</code></dt>
+      <dd>Define una lista desplegable.
+          <code>
+            &lt;select id="pais" name="pais"&gt;
+              &lt;option value="españa"&gt;España&lt;/option&gt;
+              &lt;option value="mexico"&gt;México&lt;/option&gt;
+              &lt;option value="argentina"&gt;Argentina&lt;/option&gt;
+            &lt;/select&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;option&gt;</code></dt>
+      <dd>Define una opción en una lista desplegable.
+          <code>
+            &lt;option value="españa"&gt;España&lt;/option&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;label&gt;</code></dt>
+      <dd>Define una etiqueta para un elemento de formulario.
+          <code>
+            &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;fieldset&gt;</code></dt>
+      <dd>Agrupa elementos relacionados en un formulario.
+          <code>
+            &lt;fieldset&gt;
+              &lt;legend&gt;Datos personales&lt;/legend&gt;
+              &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+              &lt;input type="text" id="nombre" name="nombre"&gt;
+            &lt;/fieldset&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;legend&gt;</code></dt>
+      <dd>Define un título para un <code>&lt;fieldset&gt;</code>.
+          <code>
+            &lt;legend&gt;Datos personales&lt;/legend&gt;
+          </code>
+      </dd>
+    </dl>
+
+    <h2 id="multimedia">Etiquetas multimedia</h2>
+
+    <dl>
+      <dt><code>&lt;img&gt;</code></dt>
+      <dd>Inserta una imagen.
+          <code>
+            &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;audio&gt;</code></dt>
+      <dd>Inserta un archivo de audio.
+          <code>
+            &lt;audio controls&gt;
+              &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+            &lt;/audio&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt
+	  <video&gt;</code></dt>
+      <dd>Inserta un archivo de vídeo.
+          <code>
+            &lt;video controls&gt;
+              &lt;source src="video.mp4" type="video/mp4"&gt;
+            &lt;/video&gt;
+          </code>
+      </dd>
+    </dl>
+
+    <h2 id="enlaces">Etiquetas de enlace</h2>
+
+    <dl>
+      <dt><code>&lt;a&gt;</code></dt>
+      <dd>Define un hipervínculo.
+          <code>
+            &lt;a href="https://www.ejemplo.com"&gt;Enlace a un sitio web&lt;/a&gt;
+          </code>
+      </dd>
+    </dl>
+
+    <h2 id="incrustacion">Etiquetas de incrustación</h2>
+
+    <dl>
+      <dt><code>&lt;iframe&gt;</code></dt>
+      <dd>Inserta otro documento HTML dentro del actual.
+          <code>
+            &lt;iframe src="https://www.ejemplo.com"&gt;&lt;/iframe&gt;
+          </code>
+      </dd>
+    </dl>
+
+    <h2 id="semanticas">Etiquetas semánticas</h2>
+
+    <dl>
+      <dt><code>&lt;figure&gt;</code></dt>
+      <dd>Define una figura (ej. una imagen con su pie de foto).
+          <code>
+            &lt;figure&gt;
+              &lt;img src="imagen.jpg" alt="Descripción"&gt;
+              &lt;figcaption&gt;Pie de foto&lt;/figcaption&gt;
+            &lt;/figure&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;figcaption&gt;</code></dt>
+      <dd>Define el pie de foto de una figura.
+          <code>
+            &lt;figcaption&gt;Pie de foto&lt;/figcaption&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;details&gt;</code></dt>
+      <dd>Define detalles adicionales que el usuario puede mostrar u ocultar.
+          <code>
+            &lt;details&gt;
+              &lt;summary&gt;Detalles&lt;/summary&gt;
+              &lt;p&gt;Información adicional&lt;/p&gt;
+            &lt;/details&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;summary&gt;</code></dt>
+      <dd>Define un encabezado visible para <code>&lt;details&gt;</code>.
+          <code>
+            &lt;summary&gt;Detalles&lt;/summary&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;time&gt;</code></dt>
+      <dd>Define una fecha y/o hora.
+          <code>
+            &lt;time datetime="2024-10-24"&gt;24 de octubre de 2024&lt;/time&gt;
+          </code>
+      </dd>
+
+      <dt><code>&lt;mark&gt;</code></dt>
+      <dd>Resalta texto.
+          <code>
+            &lt;p&gt;Este texto está &lt;mark&gt;resaltado&lt;/mark&gt;.&lt;/p&gt;
+          </code>
+      </dd>
+    </dl>
+
+  </main>
+
+</body>
+</html>
