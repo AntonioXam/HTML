@@ -1,0 +1,22 @@
+.tabla01 {
+	background-color: #dbdbdb;
+	border-top: 2px dotted #000;
+	border-right:2px solid #d7c26c;
+	border-bottom: 2px ridge #3b8bd6;
+	border-left:2px double #5bb734;
+	
+}
+
+.bgcolor01 {
+	background-color:#7c7c7c;
+}
+.linea{
+	background-color:#c8c8c8;
+}
+
+*{
+	magin:5;
+	padding:5;
+	align-items:center;
+	
+}

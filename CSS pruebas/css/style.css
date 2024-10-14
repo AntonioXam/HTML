@@ -1,0 +1,18 @@
+body{
+	font-family: Arial, Helvética, Verdana;
+	font-size:0-8em;
+	color:#000;
+}
+
+.capa01{
+	border: 1px solid #000;
+	
+}
+
+.capa01 p {
+	background-color:#e7e7e7;
+	margin:20px;
+	box-shadow:7px 7px #313a43;
+	padding:20px;
+	border-radius:19px;
+}
