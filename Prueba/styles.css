@@ -1,0 +1,27 @@
+/* css basico con centrado de pagina*/
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh; /* Altura de la ventana del navegador */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+.container {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    padding: 20px;
+    background-color: white; /* Color de fondo del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
