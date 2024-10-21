@@ -1,27 +1,42 @@
-/* css basico con centrado de pagina*/
-
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+	margin:0 auto;
 }
 
-body {
-    height: 100vh; /* Altura de la ventana del navegador */
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    background-color: #f0f0f0; /* Color de fondo */
+
+body{
+	width:800px;
+	font-family:Arial;
+	font-size:11pt;
 }
 
-.container {
-    text-align: center; /* Centra el texto dentro del contenedor */
-    padding: 20px;
-    background-color: white; /* Color de fondo del contenedor */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+
+header{
+	background-color:black;
+	color:white;
+	width:100%;
 }
 
+
+nav {
+    background-color: #f8f8f8; /* Color de fondo opcional */
+}
+
+nav ul {
+    list-style-type: none; /* Eliminar las viñetas */
+    padding: 0; /* Eliminar el padding */
+    margin: 0; /* Eliminar el margen */
+    display: flex; /* Usar flexbox para alinear horizontalmente */
+}
+
+nav li {
+    margin-right: 20px; /* Espaciado entre los elementos de la lista */
+}
+
+nav a {
+    text-decoration: none; /* Eliminar el subrayado de los enlaces */
+    color: #333; /* Color del texto */
+}
+
+nav a:hover {
+    color: #007BFF; /* Color del texto al pasar el ratón */
+}
