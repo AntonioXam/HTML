@@ -16,7 +16,7 @@ body{
 	border: 1px solid #4d2612;
 	-moz-border-radius: 20px 0px 20px 0px;
 	-webkit-border-radius:20px 0px 20px 0px;
-	border radius:20px 0px 20px 0px;
+	border-radius:20px 0px 20px 0px;
 	-moz-box-shadow:4px 4px 5px rgba(169,108,53,0.5);
 	-webkit-box-shadow:4px 4px 5px rgba(169,108,53,0.5);
 	box-shadow:4px 4px 5px rgba(169,108,53,0.5);
@@ -25,14 +25,15 @@ body{
 	
 }
 
-#titulo{
-	text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
-	font:bold 36px fuentes, verdana, sans-serif;
-}
+
 
 #font-face{
-	font-family:'fuentes';
-	src= url('fuentes/EnergyStation.ttf');
+	font-family:"fuentes";
+	src: url('fuentes/EnergyStation.ttf');
+}
+#titulo{
+	text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+	font:bold 36px fuentes;
 }
 
 .izquierdo{

@@ -111,6 +111,7 @@ article figure figcaption{
 	margin-left:16px;
 	float:left;
 	width:280px;
+	border-radius:0px 10px;
 	
 	
 }
@@ -132,6 +133,7 @@ footer{
 table{
 	width:890px;
 	
+	
 }
 
 table th{
@@ -151,13 +153,16 @@ table td{
 	padding:10px;
 }
 
-
+.section920{
+	width:920px;
+}
 
 .espacios{
 	border:1px solid black;
 	padding:4px;
 	float:left;
-	width:350px;
+	width:416px;
+	margin:10px;
 }
 
 
@@ -166,3 +171,17 @@ table td{
 	color:white;
 	width:95%;
 }
+
+.imagengaleria{
+	width: 200px;
+	margin:14px;
+	float:left;
+}
+
+.imagengaleria:hover{
+	-moz-transform:translateX(100px)translateY(-100px) scaleX(3.0) scaleY(3.0);
+	-webkit-transform:translateX(100px)translateY(-100px) scaleX(3.0) scaleY(3.0);
+	-moz-transition: -moz-transform 1s ease-in-out;
+	-webkit-transition: -webkit-transform 1s ease-in-out;
+}
+
