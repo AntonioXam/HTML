@@ -1,0 +1,87 @@
+*
+{
+	margin: 0px;
+	
+}
+
+/*Selector de etiqueta*/
+body{
+	font-family: 'Roboto',Arial;
+}
+section{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+	
+	
+}
+
+article{
+	border:1px solid blue;
+	margin:10px;
+	padding:10px;
+	width:45%;
+	
+	
+}
+
+div{
+	
+	border:1px solid grey;
+	margin:10px;
+	padding:15px;
+}
+
+h1{
+	font-size:1.5em;
+	text-align:center;
+	text-shadow:1px 1px black;
+}
+
+div{
+	border-radius:20px;
+	box-shadow:5px 5px black;
+}
+
+/*Selector descendente*/
+div h1{
+	font-size:1.2em;
+	border-bottom:1px solid red;
+	margin-bottom:10px;
+	text-align:left;
+	font-weight:lighter;
+	color:white;
+}
+
+/*Selector hijo directo*/
+article > h1{
+	color:blue;
+	font-size:1.25em;
+	
+}
+
+/*Elementos referenciados por atributo*/
+div[name="noroeste"]{
+	background: -webkit-linear-gradient(top,#061922,#c4cdd3);
+}
+
+div[name="suroeste"]{
+	background: -webkit-linear-gradient(top,#061922,#c4cdd3);
+}
+
+div[name="pacifico"]{
+	background: -webkit-linear-gradient(top,#061922,#c4cdd3);
+}
+
+div[name="atlantico"]{
+	background: -webkit-linear-gradient(top,#061922,#c4cdd3);
+}
+
+div[name="central"]{
+	background: -webkit-linear-gradient(top,#061922,#c4cdd3);
+}
+div[name="sureste"]{
+	background: -webkit-linear-gradient(top,#061922,#c4cdd3);
+}
