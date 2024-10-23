@@ -22,21 +22,36 @@ body{
 	border: 1px solid black;
 	padding:10px;
 	margin:10px;
-	float:left;
+	
 }
 
-.caja2{
-	clear: left;
-}
 
 .profesor1{
 	background-color:blue;
 	color:white;
-	border-color:blue;
+	border-color:red
 }
 
 .profesor2{
 	background-color:green;
 	border-color:green;
+	clor:black;
 	
 }
+
+/*Contendor*/
+article{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	width:1000px;
+	weight:800px;
+	background:grey;
+	align-content:flex-end;
+	
+	border: 1px solid black;
+	
+	
+
+}
+
