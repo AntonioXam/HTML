@@ -4,68 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título de la Página</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Enlaza a un archivo CSS externo -->
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
 </head>
 <body>
-    <!-- Encabezado -->
+ 
     <header>
-        <h1>Nombre de la Página</h1>
+        <figure>
+			<img src="images/cabecera.jpg" alt="cabecera" border="0" align="left" width="" height="" />
+		</figure>
         
     </header>
-	<!-- en horizontal sin decoraciones -->
+	
 	<nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="multimedia.html">MULTIMEDIA</a></li>
+                <li><a href="horario.html">HORARIO</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
 
 
-    <!-- Sección de inicio -->
-    <section id="inicio">
-        <h2>Bienvenido a Nuestra Página</h2>
-        <p>Una breve introducción sobre lo que hacemos.</p>
+ 
+    <section>
+        <article>
+			<header>
+				<h1>Nuestros productos</h1>
+			</header>
+			<figure>
+				<img src="images/banner1.jpg" alt="banner1" border="0" align="left" width="" height="" />
+			</figure>
+			
+			<p>Tienda de bicicletas especializada en la Vega Media, pone a tu disposición las más modernas e innovadoras
+				instalaciones en exclusiva para el mundo de las dos ruedas. Amplia gama en bicicletas con secciones en Carretera,
+				Triatlon, Mountain Bike, BMX, Trial, Plegables, Trekking, Infanfil y gran variedad de componentes y accesorios de las
+				mejores y exclusivas marcas.</p>
+		</article>
+			
+		<article>
+		<header>
+				<h1>Recomendaciones</h1>
+			</header>
+			
+			<figure>
+				<img src="images/banner2.jpg" alt="banner2" border="0" align="left" width="" height="" />
+			</figure>
+			
+			<p>Contacto con nosotros y te informaremos de las mejores rutas ciclo-turísticas, los mejores recorridos en la Región
+				de Murcia y consejos para que tus etapas sean experiencias inolvidables</p>
+		</article>
     </section>
 
-    <!-- Sección sobre nosotros -->
-    <section id="sobre-nosotros">
-        <h2>Sobre Nosotros</h2>
-        <p>Información sobre la empresa o el proyecto.</p>
-    </section>
+   
+	<aside>
+		<header>
+			<h1>Ofertas</h1>
+		</header>
+		
+		<img src="images/lateral1.jpg" alt="lateral1" border="0" align="left" width="" height="" />
+		
+		<p>MíTlCAL MANNY 20: Bicicleta para niño
+			de 20". Resistente y manejable lleva un
+			cambio de 6 velocidades Shimano... </p>
+			
+			<img src="images/lateral2.jpg" alt="lateral1" border="0" align="left" width="" height="" />
+		
+		<p>Merida Ninety Six 9 9000-E 29" 2017
+			carbono. Bicicleta de montaña de
+			doble suspensión, con cuadro de
+			carbono y equipada con transmisión
+			Shirnano XTR Di2 </p>
+	</aside>
 
-    <!-- Sección de servicios -->
-    <section id="servicios">
-        <h2>Nuestros Servicios</h2>
-        <ul>
-            <li>Servicio 1</li>
-            <li>Servicio 2</li>
-            <li>Servicio 3</li>
-        </ul>
-    </section>
-
-    <!-- Sección de contacto -->
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <form action="enviar.php" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
-            
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-
-    <!-- Pie de página -->
+    
     <footer>
-        <p>&copy; 2023 Nombre de la Página. Todos los derechos reservados.</p>
+        <p>Todos los derechos reservados © Bicicletas Vega Media</p>
     </footer>
 </body>
 </html>
