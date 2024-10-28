@@ -125,6 +125,7 @@ aside p{
 	font-size:0.9em;
 	text-align:left;
 	margin-left:10px;
+	margin-bottom:5px;
 }
 
 
@@ -132,7 +133,7 @@ footer{
 	margin-top:5px;
 	float:left;
 	clear:both;
-	width:100%;
+	width:98.3%;
 	background-color:black;
 	color:white;
 	padding:10px;
@@ -156,6 +157,10 @@ footer{
 	margin-top:20px;
 	margin-bottom:20px;
 	
+}
+
+.recuadrosVideos h4{
+	margin-bottom:5px;
 }
 
 
@@ -187,14 +192,17 @@ section table{
 
 section table th{
 	border:1px double black;
+	color:#5e6265;
 }
 
 section table tr{
 	border:1px double black;
+	color:#5e6265;
 }
 
 section table td{
 	border:1px double black;
+	color:#5e6265;
 }
 
 
@@ -215,6 +223,11 @@ section article form{
 
 #correo{
 	height:30px;
+	
+}
+
+#comentarios{
+	position: relative; left: -5px;
 }
 
 
@@ -222,29 +235,42 @@ section article form{
 #enviar{
 	width:25%;
 	height:40px;
-	box-shadow: 3px 3px 3px grey;
+	box-shadow: 2px 2px 2px grey;
 }
 
 #aside{
 	background-color:black;
 	border-radius:5px;
-	float:left;
-	padding:0px;
 	margin-left:15px;
+	padding:0px;
 	
 	
 }
 
 #aside p{
 	color:white;
-	margin-bottom:10px;
-	margin-top:10px;
+	margin-bottom:7px;
+	margin-top:7px;
 	
 	
 }
 
-#aside figure{
-	float:left;
+
+#logos {
+	height:45px;
+	
 	
 }
 
+#facebook{
+	position: relative; left: -15px;
+}
+
+#twitter{
+	position: relative; left: -30px;
+}
+
+
+#fot_contacto{
+	margin-top:-5px;
+}
